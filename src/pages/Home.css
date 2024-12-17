@@ -1,0 +1,7 @@
+.container {
+    background-image: url('../assets/background.jpg'); /* Update this path to your image */
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    min-height: 100vh; /* Ensure the container takes at least the full height of the viewport */
+  }
