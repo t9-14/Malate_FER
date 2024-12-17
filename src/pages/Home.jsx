@@ -1,3 +1,5 @@
+import './Home.css';
+
 const Home = () => {
   return (
     <div className="container py-5 animate-fade-in">
