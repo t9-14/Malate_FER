@@ -141,3 +141,35 @@
   .footer hr {
     opacity: 0.2;
   }
+
+/*  */
+
+.home {
+  background-image: url('../assets/Background.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.about {
+  background-image: url('../assets/Picture.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.education {
+  background-image: url('../assets/School.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.hobbies {
+  background-image: url('../assets/Background.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.contact {
+  background-image: url('../assets/Background.jpg');
+  background-size: cover;
+  background-position: center;
+}
