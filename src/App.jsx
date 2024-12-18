@@ -9,6 +9,23 @@ import Hobbies from './pages/Hobbies';
 import Contact from './pages/Contact';
 
 function App() {
+  const getBackgroundStyle = (path) => {
+    switch (path) {
+      case '/':
+        return { backgroundImage: "url('../assets/Background.jpg')" };
+      case '/about':
+        return { backgroundImage: "url('../assets/Picture.png')" };
+      case '/education':
+        return { backgroundImage: "url('../assets/Schol.jpg')" };
+      case '/hobbies':
+        return { backgroundImage: "url('../assets/Background.jpg')" };
+      case '/contact':
+        return { backgroundImage: "url('../assets/Background.jpg')" };
+      default:
+        return {};
+    }
+  };
+
   return (
     <Router>
       <div className="d-flex flex-column min-vh-100">
